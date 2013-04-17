@@ -18,7 +18,8 @@
 		25A8F747171E441F000D19DE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A8F746171E441F000D19DE /* Default-568h@2x.png */; };
 		25A8F74A171E441F000D19DE /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25A8F748171E441F000D19DE /* MainStoryboard_iPhone.storyboard */; };
 		25A8F74D171E441F000D19DE /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25A8F74B171E441F000D19DE /* MainStoryboard_iPad.storyboard */; };
-		25A8F750171E441F000D19DE /* SGSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A8F74F171E441F000D19DE /* SGSViewController.m */; };
+		25A8F758171E4513000D19DE /* SGSWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A8F757171E4513000D19DE /* SGSWelcomeViewController.m */; };
+		25A8F75E171E47E0000D19DE /* SGSGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A8F75D171E47E0000D19DE /* SGSGameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,8 +38,10 @@
 		25A8F746171E441F000D19DE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		25A8F749171E441F000D19DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		25A8F74C171E441F000D19DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		25A8F74E171E441F000D19DE /* SGSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGSViewController.h; sourceTree = "<group>"; };
-		25A8F74F171E441F000D19DE /* SGSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGSViewController.m; sourceTree = "<group>"; };
+		25A8F756171E4513000D19DE /* SGSWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGSWelcomeViewController.h; sourceTree = "<group>"; };
+		25A8F757171E4513000D19DE /* SGSWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGSWelcomeViewController.m; sourceTree = "<group>"; };
+		25A8F75C171E47E0000D19DE /* SGSGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGSGameViewController.h; sourceTree = "<group>"; };
+		25A8F75D171E47E0000D19DE /* SGSGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGSGameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +92,11 @@
 				25A8F740171E441F000D19DE /* SGSAppDelegate.m */,
 				25A8F748171E441F000D19DE /* MainStoryboard_iPhone.storyboard */,
 				25A8F74B171E441F000D19DE /* MainStoryboard_iPad.storyboard */,
-				25A8F74E171E441F000D19DE /* SGSViewController.h */,
-				25A8F74F171E441F000D19DE /* SGSViewController.m */,
+				25A8F756171E4513000D19DE /* SGSWelcomeViewController.h */,
+				25A8F757171E4513000D19DE /* SGSWelcomeViewController.m */,
 				25A8F737171E441F000D19DE /* Supporting Files */,
+				25A8F75C171E47E0000D19DE /* SGSGameViewController.h */,
+				25A8F75D171E47E0000D19DE /* SGSGameViewController.m */,
 			);
 			path = sanguosha;
 			sourceTree = "<group>";
@@ -180,7 +185,8 @@
 			files = (
 				25A8F73D171E441F000D19DE /* main.m in Sources */,
 				25A8F741171E441F000D19DE /* SGSAppDelegate.m in Sources */,
-				25A8F750171E441F000D19DE /* SGSViewController.m in Sources */,
+				25A8F758171E4513000D19DE /* SGSWelcomeViewController.m in Sources */,
+				25A8F75E171E47E0000D19DE /* SGSGameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +245,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -264,7 +270,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

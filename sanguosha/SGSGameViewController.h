@@ -1,5 +1,5 @@
 //
-//  SGSViewController.h
+//  SGSGameViewController.h
 //  sanguosha
 //
 //  Created by Greg Wang on 4/16/13.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SGSViewController : UIViewController
+@interface SGSGameViewController : UIViewController
+
+@property IBOutlet UILabel *scenarioNameLabel;
 
 @end
